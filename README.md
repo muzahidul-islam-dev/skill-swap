@@ -31,14 +31,34 @@ Skill Swap is a platform created for learning and skill development. Users can b
 ---
 
 ## Dependencies  
-
-| Package          | Purpose                      |
-|------------------|------------------------------|
-| AOS              | Scroll animations             |
-| Animate.css      | CSS-based animations          |
-| Daisy UI         | UI components                 |
-| React Hot Toast  | Alert and toast notifications |
-| Swiper           | Slider and carousel           |
+```bash
+"dependencies": {
+    "@tailwindcss/vite": "^4.1.15",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "firebase": "^12.4.0",
+    "geist": "^1.5.1",
+    "lucide-react": "^0.546.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-hot-toast": "^2.6.0",
+    "react-router-dom": "^7.9.4",
+    "swiper": "^12.0.3",
+    "tailwindcss": "^4.1.15"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react-swc": "^4.1.0",
+    "daisyui": "^5.3.9",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.22",
+    "globals": "^16.4.0",
+    "vite": "^7.1.7"
+  }
+```
 
 ---
 
