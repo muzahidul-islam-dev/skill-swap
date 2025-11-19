@@ -8,7 +8,7 @@ Skill Swap is a platform created for learning and skill development. Users can b
 ---
 
 ## Screenshot  
-![Skill Swap Screenshot](https://skillswap-aee.pages.dev/_next/static/media/your-screenshot.png)  
+![Skill Swap Screenshot](https://github.com/muzahidul-islam-dev/skill-swap/blob/main/screenshot.png)  
 
 ---
 
