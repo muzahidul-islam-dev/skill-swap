@@ -50,5 +50,30 @@ Skill Swap is a platform created for learning and skill development. Users can b
 
 ### Steps  
 1. Clone the repository  
-   ```bash
-   git clone https://github.com/yourusername/skillswap.git
+```bash
+git clone https://github.com/yourusername/skillswap.git
+```
+
+2. Navigate into the project directory
+```bash
+cd skillswap
+```
+
+3. Install dependencies
+```bash
+npm install
+```
+
+
+4. Start the development server
+```bash
+npm run dev
+```
+
+
+Open your browser and visit:
+http://localhost:3000
+
+Live Link
+
+https://skillswap-aee.pages.dev
