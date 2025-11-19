@@ -14,7 +14,7 @@ Skill Swap is a platform created for learning and skill development. Users can b
 
 ## Main Technologies  
 - **React.js**  
-- **Tailwind CSS** (if used)  
+- **Tailwind CSS**
 - **Daisy UI**  
 
 ---
