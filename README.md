@@ -1,67 +1,54 @@
-# Bill Management
+# Skill Swap
 
 ---
 
 ## Project Overview  
-Bill Management is a web application that enables users to easily add, edit, and manage their bills. It helps users efficiently track their expenses and organize their financial data through a clean and user-friendly interface.
+Skill Swap is a platform created for learning and skill development. Users can browse skill listings, view detailed skill pages, manage their profiles, and interact with the platform through a modern, responsive user interface.
 
 ---
 
 ## Screenshot  
-![Bill Management Screenshot](https://bill-management-seven.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fscreenshot.abcdef.png&w=1920&q=75)  
-*Note: Replace the above image URL with the actual screenshot URL from your project.*
+![Skill Swap Screenshot](https://skillswap-aee.pages.dev/_next/static/media/your-screenshot.png)  
 
 ---
 
-## Technologies Used  
-- **React.js** (Next.js framework)  
-- **Tailwind CSS** (for styling)  
-- **JavaScript**  
-- **Vercel** (for hosting and deployment)  
+## Main Technologies  
+- **React.js**  
+- **Tailwind CSS** (if used)  
+- **Daisy UI**  
 
 ---
 
 ## Key Features  
-- Add, edit, and delete bills effortlessly  
-- Manage bills by categories  
-- Responsive design for mobile and desktop devices  
-- Fast and intuitive user experience  
+- User Authentication System  
+- Skill Listings with detail pages  
+- User Profile Management  
+- Responsive Layout  
+- Modern and user-friendly UI  
+- Animations and transitions powered by AOS and Animate.css  
+- Slider functionality using Swiper  
 
 ---
 
 ## Dependencies  
-- react  
-- next  
-- tailwindcss  
-- autoprefixer  
-- postcss  
-- react-icons  
-- clsx  
+
+| Package          | Purpose                      |
+|------------------|------------------------------|
+| AOS              | Scroll animations             |
+| Animate.css      | CSS-based animations          |
+| Daisy UI         | UI components                 |
+| React Hot Toast  | Alert and toast notifications |
+| Swiper           | Slider and carousel           |
 
 ---
 
 ## How to Run Locally  
 
+### Prerequisites  
+- Node.js (v14 or higher recommended)  
+- npm or yarn package manager  
+
+### Steps  
 1. Clone the repository  
    ```bash
-   git clone https://github.com/yourusername/bill-management.git
-   ```
-2.Navigate to the project directory
-```bash
-cd bill-management
-```
-
-3. Install dependencies
-```bash
-npm install
-```
-
-
-4. Start the development server
-```bash
-npm run dev
-```
-
-
-Open your browser and visit:
-http://localhost:3000
+   git clone https://github.com/yourusername/skillswap.git
