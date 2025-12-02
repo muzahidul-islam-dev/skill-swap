@@ -31,6 +31,8 @@ function Header() {
                             <ul className='flex gap-5 items-center'>
                                 <li><Link to="/" className='text-gray-800'>Home</Link></li>
                                 <li><Link to="/skills" className='text-gray-800'>All Skills</Link></li>
+                                <li><Link to="/about" className='text-gray-800'>About Us</Link></li>
+                                <li><Link to="/contact" className='text-gray-800'>Contact Us</Link></li>
                             </ul>
                         </nav>
                     </div>

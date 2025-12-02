@@ -9,6 +9,8 @@ import AuthLayout from "../components/shared/AuthLayout";
 import PrivateLayout from "../components/shared/PrivateLayout";
 import Profile from "../pages/Profile/Profile";
 import AllSkills from "../pages/AllSkills/AllSkills";
+import About from "../pages/About/About";
+import Contact from "../pages/Contact/Contact";
 
 const routes = createBrowserRouter([
     {
@@ -37,6 +39,14 @@ const routes = createBrowserRouter([
             {
                 path: '/skills',
                 element: <AllSkills />
+            },
+            {
+                path: '/about',
+                element: <About />
+            },
+            {
+                path: '/contact',
+                element: <Contact />
             },
             {
                 path: 'auth',
