@@ -7,7 +7,9 @@ function Footer() {
             <div className="container">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                     <div>
-                        <h3 className="font-bold text-lg mb-4">Contact Us</h3>
+                        <div>
+                            <Link to={'/'} className='text-2xl font-semibold text-white mb-3 inline-block'>SkillSwap</Link>
+                        </div>
                         <div className="flex items-center gap-2 mb-2">
                             <Mail size={18} />
                             <a href="mailto:rahat1470.com@gmail.com">
