@@ -19,6 +19,7 @@ function Home() {
         })
     }, [])
 
+    if(loading) return 'Loading...'
 
     return (
         <div>

@@ -8,6 +8,7 @@ import Skill from "../pages/Skill/Skill";
 import AuthLayout from "../components/shared/AuthLayout";
 import PrivateLayout from "../components/shared/PrivateLayout";
 import Profile from "../pages/Profile/Profile";
+import AllSkills from "../pages/AllSkills/AllSkills";
 
 const routes = createBrowserRouter([
     {
@@ -16,6 +17,7 @@ const routes = createBrowserRouter([
         children: [
             {
                 path: '',
+                index: true,
                 element: <Home />
             },
             {
@@ -31,6 +33,10 @@ const routes = createBrowserRouter([
                         element: <Profile />
                     }
                 ]
+            },
+            {
+                path: '/skills',
+                element: <AllSkills />
             },
             {
                 path: 'auth',

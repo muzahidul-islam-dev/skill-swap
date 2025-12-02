@@ -1,4 +1,4 @@
-import React, { use, useState } from 'react'
+import React, { use } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { UserProvider } from '../../context/AuthContext'
 import UserPlaceholder from './../../assets/user.png'
@@ -28,8 +28,9 @@ function Header() {
                     </div>
                     <div>
                         <nav>
-                            <ul>
+                            <ul className='flex gap-5 items-center'>
                                 <li><Link to="/" className='text-gray-800'>Home</Link></li>
+                                <li><Link to="/skills" className='text-gray-800'>All Skills</Link></li>
                             </ul>
                         </nav>
                     </div>
